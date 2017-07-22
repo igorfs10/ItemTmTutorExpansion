@@ -24,7 +24,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 	
-	    //379. {Heal Ball}
+    //379. {Heal Ball}
     {
         .name = _("Heal Ball"),
         .index = ITEM_HEALBALL,
