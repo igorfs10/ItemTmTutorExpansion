@@ -721,7 +721,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = 0x00000000
     },
 
-    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    //420. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
     {
         .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
         .index = NULL,
@@ -738,16 +738,305 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    //421. {OCCA BERRY}
     {
-        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
-        .index = NULL,
-        .price = NULL,
-        .held_effect = NULL,
+        .name = _("Occa Berry"),
+        .index = ITEM_OCCABERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
         .held_effect_quality = NULL,
-        .desc_pointer = (void *)0x0857FEA0,
+        .desc_pointer = (void *)0x00000000,
         .mystery_value = NULL,
-        .pocket_no = 1,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000A
+    },
+
+    //422. {PASSHO BERRY}
+    {
+        .name = _("Passho Berry"),
+        .index = ITEM_PASSHOBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000B
+    },
+
+    //423. {WACAN BERRY}
+    {
+        .name = _("Wacan Berry"),
+        .index = ITEM_WACANBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000D
+    },
+
+    //424. {RINDO BERRY}
+    {
+        .name = _("Rindo Berry"),
+        .index = ITEM_RINDOBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000C
+    },
+
+    //425. {YACHE BERRY}
+    {
+        .name = _("Yache Berry"),
+        .index = ITEM_YACHEBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000F
+    },
+
+    //426. {CHOPLE BERRY}
+    {
+        .name = _("Chople Berry"),
+        .index = ITEM_CHOPLEBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000001
+    },
+
+    //427. {KEBIA BERRY}
+    {
+        .name = _("Kebia Berry"),
+        .index = ITEM_KEBIABERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000003
+    },
+
+    //428. {SHUCA BERRY}
+    {
+        .name = _("Shuca Berry"),
+        .index = ITEM_SHUCABERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000004
+    },
+
+    //429. {COBA BERRY}
+    {
+        .name = _("Coba Berry"),
+        .index = ITEM_COBABERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000002
+    },
+
+    //430. {PAYAPA BERRY}
+    {
+        .name = _("Payapa Berry"),
+        .index = ITEM_PAYAPABERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000E
+    },
+
+    //431. {TANGA BERRY}
+    {
+        .name = _("Tanga Berry"),
+        .index = ITEM_TANGABERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000006
+    },
+
+    //432. {CHARTI BERRY}
+    {
+        .name = _("Charti Berry"),
+        .index = ITEM_CHARTIBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000005
+    },
+
+    //433. {KASIB BERRY}
+    {
+        .name = _("Kasib Berry"),
+        .index = ITEM_KASIBBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000007
+    },
+
+    //434. {HABAN BERRY}
+    {
+        .name = _("Haban Berry"),
+        .index = ITEM_HABANBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000010
+    },
+
+    //435. {COLBUR BERRY}
+    {
+        .name = _("Colbur Berry"),
+        .index = ITEM_COLBURBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000011
+    },
+
+    //436. {BABIRI BERRY}
+    {
+        .name = _("Babiri Berry"),
+        .index = ITEM_BABIRIBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000008
+    },
+
+    //437. {MICLE BERRY}
+    {
+        .name = _("Micle Berry"),
+        .index = ITEM_MICLEBERRY,
+        .price = 20,
+        .held_effect = 0,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //438. {CUSTAP BERRY}
+    {
+        .name = _("Custap Berry"),
+        .index = ITEM_CUSTAPBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_CUSTAPBERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
         .type_of_item =  4,
         .field_usage_code = (void *)0x080FE821,
         .battle_usage = NULL,
@@ -755,21 +1044,38 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    //439. {JABOCA BERRY}
     {
-        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
-        .index = NULL,
-        .price = NULL,
-        .held_effect = NULL,
+        .name = _("Jaboca Berry"),
+        .index = ITEM_JABOCABERRY,
+        .price = 20,
+        .held_effect = 0,
         .held_effect_quality = NULL,
-        .desc_pointer = (void *)0x0857FEA0,
+        .desc_pointer = (void *)0x00000000,
         .mystery_value = NULL,
-        .pocket_no = 1,
+        .pocket_no = POCKET_BERRIES,
         .type_of_item =  4,
         .field_usage_code = (void *)0x080FE821,
         .battle_usage = NULL,
         .battle_usage_code = NULL,
-        .extra_param = NULL
+        .extra_param = 0x00000000
+    },
+
+    //440. {ROWAP BERRY}
+    {
+        .name = _("Rowap Berry"),
+        .index = ITEM_ROWAPBERRY,
+        .price = 20,
+        .held_effect = 0,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
     },
 
     //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
