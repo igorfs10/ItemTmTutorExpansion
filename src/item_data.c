@@ -1010,7 +1010,24 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = 0x00000008
     },
 
-    //437. {MICLE BERRY}
+    //437. {CHILAN BERRY}
+    {
+        .name = _("Chilan Berry"),
+        .index = ITEM_CHILANBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //438. {MICLE BERRY}
     {
         .name = _("Micle Berry"),
         .index = ITEM_MICLEBERRY,
@@ -1027,7 +1044,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = 0x00000000
     },
 
-    //438. {CUSTAP BERRY}
+    //439. {CUSTAP BERRY}
     {
         .name = _("Custap Berry"),
         .index = ITEM_CUSTAPBERRY,
@@ -1044,7 +1061,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //439. {JABOCA BERRY}
+    //440. {JABOCA BERRY}
     {
         .name = _("Jaboca Berry"),
         .index = ITEM_JABOCABERRY,
@@ -1061,7 +1078,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = 0x00000000
     },
 
-    //440. {ROWAP BERRY}
+    //441. {ROWAP BERRY}
     {
         .name = _("Rowap Berry"),
         .index = ITEM_ROWAPBERRY,
@@ -1078,7 +1095,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = 0x00000000
     },
 
-    //441. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    //442. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
     {
         .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
         .index = NULL,
@@ -1095,7 +1112,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //442. {WIDE LENS}
+    //443. {WIDE LENS}
     {
         .name = _("Wide Lens"),
         .index = ITEM_WIDELENS,
@@ -1112,7 +1129,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //443. {MUSCLE BAND}
+    //444. {MUSCLE BAND}
     {
         .name = _("Muscle Band"),
         .index = ITEM_MUSCLEBAND,
@@ -1129,7 +1146,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //444. {Wise Glasses}
+    //445. {Wise Glasses}
     {
         .name = _("Wise Glasses"),
         .index = ITEM_WISEGLASSES,
@@ -1146,7 +1163,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //445. {EXPERT BELT}
+    //446. {EXPERT BELT}
     {
         .name = _("Expert Belt"),
         .index = ITEM_EXPERTBELT,
@@ -1163,7 +1180,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //446. {Light Clay}
+    //447. {Light Clay}
     {
         .name = _("Light Clat"),
         .index = ITEM_LIGHTCLAY,
@@ -1180,7 +1197,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //447. {LIFE ORB}
+    //448. {LIFE ORB}
     {
         .name = _("Life Orb"),
         .index = ITEM_LIFEORB,
@@ -1197,7 +1214,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //448. {POWER HERB}
+    //449. {POWER HERB}
     {
         .name = _("Power Herb"),
         .index = ITEM_POWERHERB,
@@ -1214,7 +1231,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //449. {TOXIC ORB}
+    //450. {TOXIC ORB}
     {
         .name = _("Toxic Orb"),
         .index = ITEM_TOXICORB,
@@ -1231,7 +1248,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //450. {FLAME ORB}
+    //451. {FLAME ORB}
     {
         .name = _("Flame Orb"),
         .index = ITEM_FLAMEORB,
@@ -1248,7 +1265,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //451. {QUICK POWDER}
+    //452. {QUICK POWDER}
     {
         .name = _("Quick Powder"),
         .index = ITEM_QUICKPOWDER,
@@ -1265,7 +1282,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //452. {FOCUS SASH}
+    //453. {FOCUS SASH}
     {
         .name = _("Focus Sash"),
         .index = ITEM_FOCUSSASH,
@@ -1282,7 +1299,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //453. {ZOOM LENS}
+    //454. {ZOOM LENS}
     {
         .name = _("Zoom Lens"),
         .index = ITEM_ZOOMLENS,
@@ -1299,7 +1316,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //454. {METRONOME}
+    //455. {METRONOME}
     {
         .name = _("Metronome"),
         .index = ITEM_METRONOME,
@@ -1316,7 +1333,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //455. {IRON BALL}
+    //456. {IRON BALL}
     {
         .name = _("Iron Ball"),
         .index = ITEM_IRONBALL,
@@ -1333,7 +1350,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //456. {LAGGINGTAIL}
+    //457. {LAGGINGTAIL}
     {
         .name = _("LaggingTail"),
         .index = ITEM_LAGGINGTAIL,
@@ -1350,7 +1367,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //457. {DESTINY KNOT}
+    //458. {DESTINY KNOT}
     {
         .name = _("Destiny Knot"),
         .index = ITEM_DESTINYKNOT,
@@ -1367,7 +1384,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //458. {BLACK SLUDGE}
+    //459. {BLACK SLUDGE}
     {
         .name = _("Black Sludge"),
         .index = ITEM_BLACKSLUDGE,
@@ -1384,7 +1401,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //453. {ICY ROCK}
+    //460. {ICY ROCK}
     {
         .name = _("Icy Rock"),
         .index = ITEM_ICYROCK,
@@ -1401,7 +1418,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //454. {SMOOTH ROCK}
+    //461. {SMOOTH ROCK}
     {
         .name = _("Smooth Rock"),
         .index = ITEM_SMOOTHROCK,
@@ -1418,7 +1435,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //455. {HEAT ROCK}
+    //462. {HEAT ROCK}
     {
         .name = _("Heat Rock"),
         .index = ITEM_HEATROCK,
@@ -1435,7 +1452,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //456. {DAMP ROCK}
+    //463. {DAMP ROCK}
     {
         .name = _("Damp Rock"),
         .index = ITEM_DAMPROCK,
@@ -1452,7 +1469,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //457. {GRIP CLAW}
+    //464. {GRIP CLAW}
     {
         .name = _("Grip Claw"),
         .index = ITEM_GRIPCLAW,
@@ -1469,7 +1486,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //458. {CHOICE SCARF}
+    //465. {CHOICE SCARF}
     {
         .name = _("Choice Scarf"),
         .index = ITEM_CHOICESCARF,
@@ -1486,7 +1503,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //459. {STICKY BARB}
+    //466. {STICKY BARB}
     {
         .name = _("Sticky Barb"),
         .index = ITEM_STICKYBARB,
@@ -1503,7 +1520,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //460. {POWER BRACER}
+    //467. {POWER BRACER}
     {
         .name = _("Power Bracer"),
         .index = ITEM_POWERBRACER,
@@ -1520,7 +1537,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = 0x00000002
     },
 
-    //461. {POWER BELT}
+    //468. {POWER BELT}
     {
         .name = _("Power Belt"),
         .index = ITEM_POWERBELT,
@@ -1537,7 +1554,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = 0x00000003
     },
 
-    //462. {POWER LENS}
+    //469. {POWER LENS}
     {
         .name = _("Power Lens"),
         .index = ITEM_POWERLENS,
@@ -1554,7 +1571,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = 0x00000005
     },
 
-    //463. {POWER BAND}
+    //470. {POWER BAND}
     {
         .name = _("Power Band"),
         .index = ITEM_POWERBAND,
@@ -1571,7 +1588,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = 0x00000006
     },
 
-    //464. {POWER ANKLET}
+    //471. {POWER ANKLET}
     {
         .name = _("Power Anklet"),
         .index = ITEM_POWERANKLET,
@@ -1588,7 +1605,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = 0x00000004
     },
 
-    //465. {POWER WEIGHT}
+    //472. {POWER WEIGHT}
     {
         .name = _("Power Weight"),
         .index = ITEM_POWERWEIGHT,
@@ -1605,7 +1622,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = 0x00000001
     },
 
-    //466. {SHED SHELL}
+    //473. {SHED SHELL}
     {
         .name = _("Shed Shell"),
         .index = ITEM_SHEDSHELL,
@@ -1622,7 +1639,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //467. {BIG ROOT}
+    //474. {BIG ROOT}
     {
         .name = _("Big Root"),
         .index = ITEM_BIGROOT,
@@ -1639,7 +1656,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //468. {CHOICE SPECS}
+    //475. {CHOICE SPECS}
     {
         .name = _("Choice Specs"),
         .index = ITEM_CHOICESPECS,
