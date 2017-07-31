@@ -1,938 +1,5093 @@
-#ifndef ITEM_IDS_H
-#define ITEM_IDS_H
-
-#define ITEM_NONE 0x0
-#define ITEM_MASTERBALL 0x1
-#define ITEM_ULTRABALL 0x2
-#define ITEM_GREATBALL 0x3
-#define ITEM_POKEBALL 0x4
-#define ITEM_SAFARIBALL 0x5
-#define ITEM_NETBALL 0x6
-#define ITEM_DIVEBALL 0x7
-#define ITEM_NESTBALL 0x8
-#define ITEM_REPEATBALL 0x9
-#define ITEM_TIMERBALL 0xA
-#define ITEM_LUXURYBALL 0xB
-#define ITEM_PREMIERBALL 0xC
-#define ITEM_POTION 0xD
-#define ITEM_ANTIDOTE 0xE
-#define ITEM_BURNHEAL 0xF
-#define ITEM_ICEHEAL 0x10
-#define ITEM_AWAKENING 0x11
-#define ITEM_PARLYZHEAL 0x12
-#define ITEM_FULLRESTORE 0x13
-#define ITEM_MAXPOTION 0x14
-#define ITEM_HYPERPOTION 0x15
-#define ITEM_SUPERPOTION 0x16
-#define ITEM_FULLHEAL 0x17
-#define ITEM_REVIVE 0x18
-#define ITEM_MAXREVIVE 0x19
-#define ITEM_FRESHWATER 0x1A
-#define ITEM_SODAPOP 0x1B
-#define ITEM_LEMONADE 0x1C
-#define ITEM_MOOMOOMILK 0x1D
-#define ITEM_ENERGYPOWDER 0x1E
-#define ITEM_ENERGYROOT 0x1F
-#define ITEM_HEALPOWDER 0x20
-#define ITEM_REVIVALHERB 0x21
-#define ITEM_ETHER 0x22
-#define ITEM_MAXETHER 0x23
-#define ITEM_ELIXIR 0x24
-#define ITEM_MAXELIXIR 0x25
-#define ITEM_LAVACOOKIE 0x26
-#define ITEM_BLUEFLUTE 0x27
-#define ITEM_YELLOWFLUTE 0x28
-#define ITEM_REDFLUTE 0x29
-#define ITEM_BLACKFLUTE 0x2A
-#define ITEM_WHITEFLUTE 0x2B
-#define ITEM_BERRYJUICE 0x2C
-#define ITEM_SACREDASH 0x2D
-#define ITEM_SHOALSALT 0x2E
-#define ITEM_SHOALSHELL 0x2F
-#define ITEM_REDSHARD 0x30
-#define ITEM_BLUESHARD 0x31
-#define ITEM_YELLOWSHARD 0x32
-#define ITEM_GREENSHARD 0x33
-
-
-
-
-
-
-
-
-
-
-
-#define ITEM_HPUP 0x3F
-#define ITEM_PROTEIN 0x40
-#define ITEM_IRON 0x41
-#define ITEM_CARBOS 0x42
-#define ITEM_CALCIUM 0x43
-#define ITEM_RARECANDY 0x44
-#define ITEM_PPUP 0x45
-#define ITEM_ZINC 0x46
-#define ITEM_PPMAX 0x47
-
-#define ITEM_GUARDSPEC 0x49
-#define ITEM_DIREHIT 0x4A
-#define ITEM_XATTACK 0x4B
-#define ITEM_XDEFEND 0x4C
-#define ITEM_XSPEED 0x4D
-#define ITEM_XACCURACY 0x4E
-#define ITEM_XSPECIAL 0x4F
-#define ITEM_POKEDOLL 0x50
-#define ITEM_FLUFFYTAIL 0x51
-
-#define ITEM_SUPERREPEL 0x53
-#define ITEM_MAXREPEL 0x54
-#define ITEM_ESCAPEROPE 0x55
-#define ITEM_REPEL 0x56
-
-
-
-
-
-
-#define ITEM_SUNSTONE 0x5D
-#define ITEM_MOONSTONE 0x5E
-#define ITEM_FIRESTONE 0x5F
-#define ITEM_THUNDERSTONE 0x60
-#define ITEM_WATERSTONE 0x61
-#define ITEM_LEAFSTONE 0x62
-
-
-
-
-#define ITEM_TINYMUSHROOM 0x67
-#define ITEM_BIGMUSHROOM 0x68
-
-#define ITEM_PEARL 0x6A
-#define ITEM_BIGPEARL 0x6B
-#define ITEM_STARDUST 0x6C
-#define ITEM_STARPIECE 0x6D
-#define ITEM_NUGGET 0x6E
-#define ITEM_HEARTSCALE 0x6F
-
-
-
-
-
-
-
-
-
-#define ITEM_ORANGEMAIL 0x79
-#define ITEM_HARBORMAIL 0x7A
-#define ITEM_GLITTERMAIL 0x7B
-#define ITEM_MECHMAIL 0x7C
-#define ITEM_WOODMAIL 0x7D
-#define ITEM_WAVEMAIL 0x7E
-#define ITEM_BEADMAIL 0x7F
-#define ITEM_SHADOWMAIL 0x80
-#define ITEM_TROPICMAIL 0x81
-#define ITEM_DREAMMAIL 0x82
-#define ITEM_FABMAIL 0x83
-#define ITEM_RETROMAIL 0x84
-#define ITEM_CHERIBERRY 0x85
-#define ITEM_CHESTOBERRY 0x86
-#define ITEM_PECHABERRY 0x87
-#define ITEM_RAWSTBERRY 0x88
-#define ITEM_ASPEARBERRY 0x89
-#define ITEM_LEPPABERRY 0x8A
-#define ITEM_ORANBERRY 0x8B
-#define ITEM_PERSIMBERRY 0x8C
-#define ITEM_LUMBERRY 0x8D
-#define ITEM_SITRUSBERRY 0x8E
-#define ITEM_FIGYBERRY 0x8F
-#define ITEM_WIKIBERRY 0x90
-#define ITEM_MAGOBERRY 0x91
-#define ITEM_AGUAVBERRY 0x92
-#define ITEM_IAPAPABERRY 0x93
-#define ITEM_RAZZBERRY 0x94
-#define ITEM_BLUKBERRY 0x95
-#define ITEM_NANABBERRY 0x96
-#define ITEM_WEPEARBERRY 0x97
-#define ITEM_PINAPBERRY 0x98
-#define ITEM_POMEGBERRY 0x99
-#define ITEM_KELPSYBERRY 0x9A
-#define ITEM_QUALOTBERRY 0x9B
-#define ITEM_HONDEWBERRY 0x9C
-#define ITEM_GREPABERRY 0x9D
-#define ITEM_TAMATOBERRY 0x9E
-#define ITEM_CORNNBERRY 0x9F
-#define ITEM_MAGOSTBERRY 0xA0
-#define ITEM_RABUTABERRY 0xA1
-#define ITEM_NOMELBERRY 0xA2
-#define ITEM_SPELONBERRY 0xA3
-#define ITEM_PAMTREBERRY 0xA4
-#define ITEM_WATMELBERRY 0xA5
-#define ITEM_DURINBERRY 0xA6
-#define ITEM_BELUEBERRY 0xA7
-#define ITEM_LIECHIBERRY 0xA8
-#define ITEM_GANLONBERRY 0xA9
-#define ITEM_SALACBERRY 0xAA
-#define ITEM_PETAYABERRY 0xAB
-#define ITEM_APICOTBERRY 0xAC
-#define ITEM_LANSATBERRY 0xAD
-#define ITEM_STARFBERRY 0xAE
-#define ITEM_ENIGMABERRY 0xAF
-
-
-
-#define ITEM_BRIGHTPOWDER 0xB3
-#define ITEM_WHITEHERB 0xB4
-#define ITEM_MACHOBRACE 0xB5
-#define ITEM_EXPSHARE 0xB6
-#define ITEM_QUICKCLAW 0xB7
-#define ITEM_SOOTHEBELL 0xB8
-#define ITEM_MENTALHERB 0xB9
-#define ITEM_CHOICEBAND 0xBA
-#define ITEM_KINGSROCK 0xBB
-#define ITEM_SILVERPOWDER 0xBC
-#define ITEM_AMULETCOIN 0xBD
-#define ITEM_CLEANSETAG 0xBE
-#define ITEM_SOULDEW 0xBF
-#define ITEM_DEEPSEATOOTH 0xC0
-#define ITEM_DEEPSEASCALE 0xC1
-#define ITEM_SMOKEBALL 0xC2
-#define ITEM_EVERSTONE 0xC3
-#define ITEM_FOCUSBAND 0xC4
-#define ITEM_LUCKYEGG 0xC5
-#define ITEM_SCOPELENS 0xC6
-#define ITEM_METALCOAT 0xC7
-#define ITEM_LEFTOVERS 0xC8
-#define ITEM_DRAGONSCALE 0xC9
-#define ITEM_LIGHTBALL 0xCA
-#define ITEM_SOFTSAND 0xCB
-#define ITEM_HARDSTONE 0xCC
-#define ITEM_MIRACLESEED 0xCD
-#define ITEM_BLACKGLASSES 0xCE
-#define ITEM_BLACKBELT 0xCF
-#define ITEM_MAGNET 0xD0
-#define ITEM_MYSTICWATER 0xD1
-#define ITEM_SHARPBEAK 0xD2
-#define ITEM_POISONBARB 0xD3
-#define ITEM_NEVERMELTICE 0xD4
-#define ITEM_SPELLTAG 0xD5
-#define ITEM_TWISTEDSPOON 0xD6
-#define ITEM_CHARCOAL 0xD7
-#define ITEM_DRAGONFANG 0xD8
-#define ITEM_SILKSCARF 0xD9
-#define ITEM_UPGRADE 0xDA
-#define ITEM_SHELLBELL 0xDB
-#define ITEM_SEAINCENSE 0xDC
-#define ITEM_LAXINCENSE 0xDD
-#define ITEM_LUCKYPUNCH 0xDE
-#define ITEM_METALPOWDER 0xDF
-#define ITEM_THICKCLUB 0xE0
-#define ITEM_STICK 0xE1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#define ITEM_REDSCARF 0xFE
-#define ITEM_BLUESCARF 0xFF
-#define ITEM_PINKSCARF 0x100
-#define ITEM_GREENSCARF 0x101
-#define ITEM_YELLOWSCARF 0x102
-#define ITEM_MACHBIKE 0x103
-#define ITEM_COINCASE 0x104
-#define ITEM_ITEMFINDER 0x105
-#define ITEM_OLDROD 0x106
-#define ITEM_GOODROD 0x107
-#define ITEM_SUPERROD 0x108
-#define ITEM_SSTICKET 0x109
-#define ITEM_CONTESTPASS 0x10A
-
-#define ITEM_WAILMERPAIL 0x10C
-#define ITEM_DEVONGOODS 0x10D
-#define ITEM_SOOTSACK 0x10E
-#define ITEM_BASEMENTKEY 0x10F
-#define ITEM_ACROBIKE 0x110
-#define ITEM_POKEBLOCKCASE 0x111
-#define ITEM_LETTER 0x112
-#define ITEM_EONTICKET 0x113
-#define ITEM_REDORB 0x114
-#define ITEM_BLUEORB 0x115
-#define ITEM_SCANNER 0x116
-#define ITEM_GOGOGGLES 0x117
-#define ITEM_METEORITE 0x118
-#define ITEM_RM1KEY 0x119
-#define ITEM_RM2KEY 0x11A
-#define ITEM_RM4KEY 0x11B
-#define ITEM_RM6KEY 0x11C
-#define ITEM_STORAGEKEY 0x11D
-#define ITEM_ROOTFOSSIL 0x11E
-#define ITEM_CLAWFOSSIL 0x11F
-#define ITEM_DEVONSCOPE 0x120
-#define ITEM_TM01 0x121
-#define ITEM_TM02 0x122
-#define ITEM_TM03 0x123
-#define ITEM_TM04 0x124
-#define ITEM_TM05 0x125
-#define ITEM_TM06 0x126
-#define ITEM_TM07 0x127
-#define ITEM_TM08 0x128
-#define ITEM_TM09 0x129
-#define ITEM_TM10 0x12A
-#define ITEM_TM11 0x12B
-#define ITEM_TM12 0x12C
-#define ITEM_TM13 0x12D
-#define ITEM_TM14 0x12E
-#define ITEM_TM15 0x12F
-#define ITEM_TM16 0x130
-#define ITEM_TM17 0x131
-#define ITEM_TM18 0x132
-#define ITEM_TM19 0x133
-#define ITEM_TM20 0x134
-#define ITEM_TM21 0x135
-#define ITEM_TM22 0x136
-#define ITEM_TM23 0x137
-#define ITEM_TM24 0x138
-#define ITEM_TM25 0x139
-#define ITEM_TM26 0x13A
-#define ITEM_TM27 0x13B
-#define ITEM_TM28 0x13C
-#define ITEM_TM29 0x13D
-#define ITEM_TM30 0x13E
-#define ITEM_TM31 0x13F
-#define ITEM_TM32 0x140
-#define ITEM_TM33 0x141
-#define ITEM_TM34 0x142
-#define ITEM_TM35 0x143
-#define ITEM_TM36 0x144
-#define ITEM_TM37 0x145
-#define ITEM_TM38 0x146
-#define ITEM_TM39 0x147
-#define ITEM_TM40 0x148
-#define ITEM_TM41 0x149
-#define ITEM_TM42 0x14A
-#define ITEM_TM43 0x14B
-#define ITEM_TM44 0x14C
-#define ITEM_TM45 0x14D
-#define ITEM_TM46 0x14E
-#define ITEM_TM47 0x14F
-#define ITEM_TM48 0x150
-#define ITEM_TM49 0x151
-#define ITEM_TM50 0x152
-#define ITEM_HM01 0x153
-#define ITEM_HM02 0x154
-#define ITEM_HM03 0x155
-#define ITEM_HM04 0x156
-#define ITEM_HM05 0x157
-#define ITEM_HM06 0x158
-#define ITEM_HM07 0x159
-#define ITEM_HM08 0x15A
-
-
-#define ITEM_OAKSPARCEL 0x15D
-#define ITEM_POKEFLUTE 0x15E
-#define ITEM_SECRETKEY 0x15F
-#define ITEM_BIKEVOUCHER 0x160
-#define ITEM_GOLDTEETH 0x161
-#define ITEM_OLDAMBER 0x162
-#define ITEM_CARDKEY 0x163
-#define ITEM_LIFTKEY 0x164
-#define ITEM_HELIXFOSSIL 0x165
-#define ITEM_DOMEFOSSIL 0x166
-#define ITEM_SILPHSCOPE 0x167
-#define ITEM_BICYCLE 0x168
-#define ITEM_TOWNMAP 0x169
-#define ITEM_VSSEEKER 0x16A
-#define ITEM_FAMECHECKER 0x16B
-#define ITEM_TMCASE 0x16C
-#define ITEM_BERRYPOUCH 0x16D
-#define ITEM_TEACHYTV 0x16E
-#define ITEM_TRIPASS 0x16F
-#define ITEM_RAINBOWPASS 0x170
-#define ITEM_TEA 0x171
-#define ITEM_MYSTICTICKET 0x172
-#define ITEM_AURORATICKET 0x173
-#define ITEM_POWDERJAR 0x174
-#define ITEM_RUBY 0x175
-#define ITEM_SAPPHIRE 0x176
-#define ITEM_MAGMAEMBLEM 0x177
-#define ITEM_OLDSEAMAP 0x178
-
-#define ITEM_DUSKBALL 0x17A
-#define ITEM_HEALBALL 0x17B
-#define ITEM_QUICKBALL 0x17C
-#define ITEM_CHERISHBALL 0x17D
-
-#define ITEM_OLDGATEAU 0x17F
-#define ITEM_HONEY 0x180
-#define ITEM_GROWTHMULCH 0x181
-#define ITEM_DAMPMULCH 0x182
-#define ITEM_STABLEMULCH 0x183
-#define ITEM_GOOEYMULCH 0x184
-
-#define ITEM_ARMORFOSSIL 0x186
-#define ITEM_SKULLFOSSIL 0x187
-#define ITEM_RAREBONE 0x188
-#define ITEM_SHINYSTONE 0x189
-#define ITEM_DUSKSTONE 0x18A
-#define ITEM_DAWNSTONE 0x18B
-#define ITEM_OVALSTONE 0x18C
-#define ITEM_ODDKEYSTONE 0x18D
-#define ITEM_GRISEOUSORB 0x18E
-
-#define ITEM_DOUSEDRIVE 0x190
-#define ITEM_SHOCKDRIVE 0x191
-#define ITEM_BURNDRIVE 0x192
-#define ITEM_CHILLDRIVE 0x193
-
-#define ITEM_SWEETHEART 0x195
-#define ITEM_ADAMANTORB 0x196
-#define ITEM_LUSTROUSORB 0x197
-#define ITEM_GREETMAIL 0x198
-#define ITEM_FAVOREDMAIL 0x199
-#define ITEM_RSVPMAIL 0x19A
-#define ITEM_THANKSMAIL 0x19B
-#define ITEM_INQUIRYMAIL 0x19C
-#define ITEM_LIKEMAIL 0x19D
-#define ITEM_REPLYMAIL 0x19E
-#define ITEM_BRIDGEMAILS 0x19F
-#define ITEM_BRIDGEMAILD 0x1A0
-#define ITEM_BRIDGEMAILT 0x1A1
-#define ITEM_BRIDGEMAILV 0x1A2
-#define ITEM_BRIDGEMAILM 0x1A3
-
-#define ITEM_OCCABERRY 0x1A5
-#define ITEM_PASSHOBERRY 0x1A6
-#define ITEM_WACANBERRY 0x1A7
-#define ITEM_RINDOBERRY 0x1A8
-#define ITEM_YACHEBERRY 0x1A9
-#define ITEM_CHOPLEBERRY 0x1AA
-#define ITEM_KEBIABERRY 0x1AB
-#define ITEM_SHUCABERRY 0x1AC
-#define ITEM_COBABERRY 0x1AD
-#define ITEM_PAYAPABERRY 0x1AE
-#define ITEM_TANGABERRY 0x1AF
-#define ITEM_CHARTIBERRY 0x1B0
-#define ITEM_KASIBBERRY 0x1B1
-#define ITEM_HABANBERRY 0x1B2
-#define ITEM_COLBURBERRY 0x1B3
-#define ITEM_BABIRIBERRY 0x1B4
-#define ITEM_CHILANBERRY 0x1B5
-#define ITEM_MICLEBERRY 0x1B6
-#define ITEM_CUSTAPBERRY 0x1B7
-#define ITEM_JABOCABERRY 0x1B8
-#define ITEM_ROWAPBERRY 0x1B9
-
-#define ITEM_WIDELENS 0x1BB
-#define ITEM_MUSCLEBAND 0x1BC
-#define ITEM_WISEGLASSES 0x1BD
-#define ITEM_EXPERTBELT 0x1BE
-#define ITEM_LIGHTCLAY 0x1BF
-#define ITEM_LIFEORB 0x1C0
-#define ITEM_POWERHERB 0x1C1
-#define ITEM_TOXICORB 0x1C2
-#define ITEM_FLAMEORB 0x1C3
-#define ITEM_QUICKPOWDER 0x1C4
-#define ITEM_FOCUSSASH 0x1C5
-#define ITEM_ZOOMLENS 0x1C6
-#define ITEM_METRONOME 0x1C7
-#define ITEM_IRONBALL 0x1C8
-#define ITEM_LAGGINGTAIL 0x1C9
-#define ITEM_DESTINYKNOT 0x1CA
-#define ITEM_BLACKSLUDGE 0x1CB
-#define ITEM_ICYROCK 0x1CC
-#define ITEM_SMOOTHROCK 0x1CD
-#define ITEM_HEATROCK 0x1CE
-#define ITEM_DAMPROCK 0x1CF
-#define ITEM_GRIPCLAW 0x1D0
-#define ITEM_CHOICESCARF 0x1D1
-#define ITEM_STICKYBARB 0x1D2
-#define ITEM_POWERBRACER 0x1D3
-#define ITEM_POWERBELT 0x1D4
-#define ITEM_POWERLENS 0x1D5
-#define ITEM_POWERBAND 0x1D6
-#define ITEM_POWERANKLET 0x1D7
-#define ITEM_POWERWEIGHT 0x1D8
-#define ITEM_SHEDSHELL 0x1D9
-#define ITEM_BIGROOT 0x1DA
-#define ITEM_CHOICESPECS 0x1DB
-  
-#define ITEM_FLAMEPLATE 0x1DD
-#define ITEM_SPLASHPLATE 0x1DE
-#define ITEM_ZAPPLATE 0x1DF
-#define ITEM_MEADOWPLATE 0x1E0
-#define ITEM_ICICLEPLATE 0x1E1
-#define ITEM_FISTPLATE 0x1E2
-#define ITEM_TOXICPLATE 0x1E3
-#define ITEM_EARTHPLATE 0x1E4
-#define ITEM_SKYPLATE 0x1E5
-#define ITEM_MINDPLATE 0x1E6
-#define ITEM_INSECTPLATE 0x1E7
-#define ITEM_STONEPLATE 0x1E8
-#define ITEM_SPOOKYPLATE 0x1E9
-#define ITEM_DRACOPLATE 0x1EA
-#define ITEM_DREADPLATE 0x1EB
-#define ITEM_IRONPLATE 0x1EC
-  
-#define ITEM_ODDINCENSE 0x1EE
-#define ITEM_ROCKINCENSE 0x1EF
-#define ITEM_FULLINCENSE 0x1F0
-#define ITEM_WAVEINCENSE 0x1F1
-#define ITEM_ROSEINCENSE 0x1F2
-#define ITEM_LUCKINCENSE 0x1F3
-#define ITEM_PUREINCENSE 0x1F4
-#define ITEM_PROTECTOR 0x1F5
-#define ITEM_ELECTIRIZER 0x1F6
-#define ITEM_MAGMARIZER 0x1F7
-#define ITEM_DUBIOUSDISC 0x1F8
-#define ITEM_REAPERCLOTH 0x1F9
-#define ITEM_RAZORCLAW 0x1FA
-#define ITEM_RAZORFANG 0x1FB
-  
-#define ITEM_EXPLORERKIT 0x1FD
-#define ITEM_LOOTSACK 0x1FE
-#define ITEM_RULEBOOK 0x1FF
-#define ITEM_POKERADAR 0x200
-#define ITEM_POINTCARD 0x201
-#define ITEM_JOURNAL 0x202
-#define ITEM_SEALCASE 0x203
-#define ITEM_FASHIONCASE 0x204
-#define ITEM_SEALBAG 0x205
-#define ITEM_PALPAD 0x206
-#define ITEM_WORKSKEY 0x207
-#define ITEM_OLDCHARM 0x208
-#define ITEM_GALACTICKEY 0x209
-#define ITEM_REDCHAIN 0x20A
-#define ITEM_SPRAYDUCK 0x20B
-#define ITEM_POFFINCASE 0x20C
-#define ITEM_SUITEKEY 0x20D
-#define ITEM_LUNARWING 0x20E
-#define ITEM_MEMBERCARD 0x20F
-#define ITEM_AZUREFLUTE 0x210
-#define ITEM_MAGMASTONE 0x211
-#define ITEM_PARCEL 0x212
-#define ITEM_COUPON1 0x213
-#define ITEM_COUPON2 0x214
-#define ITEM_COUPON3 0x215
-#define ITEM_SECRETPOTION 0x216
-#define ITEM_GRACIDEA 0x217
-#define ITEM_APRICORNBOX 0x218
-#define ITEM_UNOWNREPORT 0x219
-#define ITEM_BERRYPOTS 0x21A
-#define ITEM_DOWSINGMACHINE 0x21B
-#define ITEM_BLUECARD 0x21C
-#define ITEM_SLOWPOKETAIL 0x21D
-#define ITEM_CLEARBELL 0x21E
-#define ITEM_BASEMENTKEY2 0x21F
-#define ITEM_SQUIRTBOTTLE 0x220
-#define ITEM_REDSCALE 0x221
-#define ITEM_LOSTITEM 0x222
-#define ITEM_PASS 0x223
-#define ITEM_MACHINEPART 0x224
-#define ITEM_SILVERWING 0x225
-#define ITEM_RAINBOWWING 0x226
-#define ITEM_MYSTERYEGG 0x227
-  
-#define ITEM_REDAPRICORN 0x229
-#define ITEM_BLUEAPRICORN 0x22A
-#define ITEM_YELLOWAPRICORN 0x22B
-#define ITEM_GREENAPRICORN 0x22C
-#define ITEM_PINKAPRICORN 0x22D
-#define ITEM_WHITEAPRICORN 0x22E
-#define ITEM_BLACKAPRICORN 0x22F
-#define ITEM_FASTBALL 0x230
-#define ITEM_LEVELBALL 0x231
-#define ITEM_LUREBALL 0x232
-#define ITEM_HEAVYBALL 0x233
-#define ITEM_LOVEBALL 0x234
-#define ITEM_FRIENDBALL 0x235
-#define ITEM_MOONBALL 0x236
-#define ITEM_SPORTBALL 0x237
-#define ITEM_PARKBALL 0x238
-  
-#define ITEM_PHOTOALBUM 0x23A
-#define ITEM_GBSOUNDS 0x23B
-#define ITEM_TIDALBELL 0x23C
-#define ITEM_RAGECANDYBAR 0x23D
-#define ITEM_DATACARD01 0x23E
-#define ITEM_DATACARD02 0x23F
-#define ITEM_DATACARD03 0x240
-#define ITEM_DATACARD04 0x241
-#define ITEM_DATACARD05 0x242
-#define ITEM_DATACARD06 0x243
-#define ITEM_DATACARD07 0x244
-#define ITEM_DATACARD08 0x245
-#define ITEM_DATACARD09 0x246
-#define ITEM_DATACARD10 0x247
-#define ITEM_DATACARD11 0x248
-#define ITEM_DATACARD12 0x249
-#define ITEM_DATACARD13 0x24A
-#define ITEM_DATACARD14 0x24B
-#define ITEM_DATACARD15 0x24C
-#define ITEM_DATACARD16 0x24D
-#define ITEM_DATACARD17 0x24E
-#define ITEM_DATACARD18 0x24F
-#define ITEM_DATACARD19 0x250
-#define ITEM_DATACARD20 0x251
-#define ITEM_DATACARD21 0x252
-#define ITEM_DATACARD22 0x253
-#define ITEM_DATACARD23 0x254
-#define ITEM_DATACARD24 0x255
-#define ITEM_DATACARD25 0x256
-#define ITEM_DATACARD26 0x257
-#define ITEM_DATACARD27 0x258
-#define ITEM_JADEORB 0x259
-#define ITEM_LOCKCAPSULE 0x25A
-#define ITEM_ENIGMASTONE 0x25B
-  
-#define ITEM_PRISMSCALE 0x25D
-#define ITEM_EVIOLITE 0x25E
-#define ITEM_FLOATSTONE 0x25F
-#define ITEM_ROCKYHELMET 0x260
-#define ITEM_AIRBALLOON 0x261
-#define ITEM_REDCARD 0x262
-#define ITEM_RINGTARGET 0x263
-#define ITEM_BINDINGBAND 0x264
-#define ITEM_ABSORBBULB 0x265
-#define ITEM_CELLBATTERY 0x266
-#define ITEM_EJECTBUTTON 0x267
-#define ITEM_FIREGEM 0x268
-#define ITEM_WATERGEM 0x269
-#define ITEM_ELECTRICGEM 0x26A
-#define ITEM_GRASSGEM 0x26B
-#define ITEM_ICEGEM 0x26C
-#define ITEM_FIGHTINGGEM 0x26D
-#define ITEM_POISONGEM 0x26E
-#define ITEM_GROUNDGEM 0x26F
-#define ITEM_FLYINGGEM 0x270
-#define ITEM_PSYCHICGEM 0x271
-#define ITEM_BUGGEM 0x272
-#define ITEM_ROCKGEM 0x273
-#define ITEM_GHOSTGEM 0x274
-#define ITEM_DRAGONGEM 0x275
-#define ITEM_DARKGEM 0x276
-#define ITEM_STEELGEM 0x277
-#define ITEM_NORMALGEM 0x278
-#define ITEM_HEALTHWING 0x279
-#define ITEM_MUSCLEWING 0x27A
-#define ITEM_RESISTWING 0x27B
-#define ITEM_GENIUSWING 0x27C
-#define ITEM_CLEVERWING 0x27D
-#define ITEM_SWIFTWING 0x27E
-#define ITEM_PRETTYWING 0x27F
-  
-#define ITEM_COVERFOSSIL 0x281
-#define ITEM_PLUMEFOSSIL 0x282
-#define ITEM_LIBERTYPASS 0x283
-#define ITEM_PASSORB 0x284
-#define ITEM_DREAMBALL 0x285
-#define ITEM_POKETOY 0x286
-#define ITEM_PROPCASE 0x287
-#define ITEM_DRAGONSKULL 0x288
-#define ITEM_BALMMUSHROOM 0x289
-#define ITEM_BIGNUGGET 0x28A
-#define ITEM_PEARLSTRING 0x28B
-#define ITEM_COMETSHARD 0x28C
-#define ITEM_RELICCOPPER 0x28D
-#define ITEM_RELICSILVER 0x28E
-#define ITEM_RELICGOLD 0x28F
-#define ITEM_RELICVASE 0x290
-#define ITEM_RELICBAND 0x291
-#define ITEM_RELICSTATUE 0x292
-#define ITEM_RELICCROWN 0x293
-  
-#define ITEM_CASTELIACONE 0x295
-#define ITEM_DIREHIT2 0x296
-#define ITEM_XSPEED2 0x297
-#define ITEM_XSP.ATK2 0x298
-#define ITEM_XSP.DEF2 0x299
-#define ITEM_XDEFENSE2 0x29A
-#define ITEM_XATTACK2 0x29B
-#define ITEM_XACCURACY2 0x29C
-#define ITEM_XSPEED3 0x29D
-#define ITEM_XSP.ATK3 0x29E
-#define ITEM_XSP.DEF3 0x29F
-#define ITEM_XDEFENSE3 0x2A0
-#define ITEM_XATTACK3 0x2A1
-#define ITEM_XACCURACY3 0x2A2
-#define ITEM_XSPEED6 0x2A3
-#define ITEM_XSP.ATK6 0x2A4
-#define ITEM_XSP.DEF6 0x2A5
-#define ITEM_XDEFENSE6 0x2A6
-#define ITEM_XATTACK6 0x2A7
-#define ITEM_XACCURACY6 0x2A8
-#define ITEM_ABILITYURGE 0x2A9
-#define ITEM_ITEM_DROP 0x2AA
-#define ITEM_ITEM_URGE 0x2AB
-#define ITEM_RESETURGE 0x2AC
-#define ITEM_DIREHIT3 0x2AD
-  
-#define ITEM_LIGHTSTONE 0x2AF
-#define ITEM_DARKSTONE 0x2B0
-#define ITEM_XTRANSCEIVERM 0x2B1
-#define ITEM_GRAM1 0x2B2
-#define ITEM_GRAM2 0x2B3
-#define ITEM_GRAM3 0x2B4
-#define ITEM_XTRANSCEIVERF 0x2B5
-#define ITEM_MEDALBOX 0x2B6
-#define ITEM_DNASPLICERS 0x2B7
-#define ITEM_DNASPLICERS2 0x2B8
-#define ITEM_PERMIT 0x2B9
-#define ITEM_OVALCHARM 0x2BA
-#define ITEM_SHINYCHARM 0x2BB
-#define ITEM_PLASMACARD 0x2BC
-#define ITEM_GRUBBYHANKY 0x2BD
-#define ITEM_COLRESSMACHINE 0x2BE
-#define ITEM_DROPPEDITEMM 0x2BF
-#define ITEM_DROPPEDITEMF 0x2C0
-#define ITEM_REVEALGLASS 0x2C1
-  
-#define ITEM_WEAKNESSPOLICY 0x2C3
-#define ITEM_ASSAULTVEST 0x2C4
-#define ITEM_HOLOCASTERM 0x2C5
-#define ITEM_PROFSLETTER 0x2C6
-#define ITEM_ROLLERSKATES 0x2C7
-#define ITEM_PIXIEPLATE 0x2C8
-#define ITEM_ABILITYCAPSULE 0x2C9
-#define ITEM_WHIPPEDDREAM 0x2CA
-#define ITEM_SACHET 0x2CB
-#define ITEM_LUMINOUSMOSS 0x2CC
-#define ITEM_SNOWBALL 0x2CD
-#define ITEM_SAFETYGOGGLES 0x2CE
-#define ITEM_RICHMULCH 0x2CF
-#define ITEM_SURPRISEMULCH 0x2D0
-#define ITEM_BOOSTMULCH 0x2D1
-#define ITEM_AMAZEMULCH 0x2D2
-  
-#define ITEM_GENGARITE 0x2D4
-#define ITEM_GARDEVOIRITE 0x2D5
-#define ITEM_AMPHAROSITE 0x2D6
-#define ITEM_VENUSAURITE 0x2D7
-#define ITEM_CHARIZARDITEX 0x2D8
-#define ITEM_BLASTOISINITE 0x2D9
-#define ITEM_MEWTWONITEX 0x2DA
-#define ITEM_MEWTWONITEY 0x2DB
-#define ITEM_BLAZIKENITE 0x2DC
-#define ITEM_MEDICHAMITE 0x2DD
-#define ITEM_HOUNDOOMINITE 0x2DE
-#define ITEM_AGGRONITE 0x2DF
-#define ITEM_BANETTITE 0x2E0
-#define ITEM_TYRANITARITE 0x2E1
-#define ITEM_SCIZORITE 0x2E2
-#define ITEM_PINSIRITE 0x2E3
-#define ITEM_AERODACTYLITE 0x2E4
-#define ITEM_LUCARIONITE 0x2E5
-#define ITEM_ABOMASITE 0x2E6
-#define ITEM_KANGASKHANITE 0x2E7
-#define ITEM_GYARADOSITE 0x2E8
-#define ITEM_ABSOLITE 0x2E9
-#define ITEM_CHARIZARDITEY 0x2EA
-#define ITEM_ALAKAZITE 0x2EB
-#define ITEM_HERACRONITE 0x2EC
-#define ITEM_MAWILITE 0x2ED
-#define ITEM_MANECTITE 0x2EE
-#define ITEM_GARCHOMPITE 0x2EF
-#define ITEM_LATIASITE 0x2F0
-#define ITEM_LATIOSITE 0x2F1
-  
-#define ITEM_ROSELIBERRY 0x2F3
-#define ITEM_KEEBERRY 0x2F4
-#define ITEM_MARANGABERRY 0x2F5
-#define ITEM_SPRINKLOTAD 0x2F6
-#define ITEM_POWERPLANTPASS 0x2F7
-#define ITEM_MEGARING 0x2F8
-#define ITEM_INTRIGUINGSTONE 0x2F9
-#define ITEM_COMMONSTONE 0x2FA
-#define ITEM_DISCOUNTCOUPON 0x2FB
-#define ITEM_ELEVATORKEY 0x2FC
-#define ITEM_TMVPASS 0x2FD
-#define ITEM_HONOROFKALOS 0x2FE
-#define ITEM_ADVENTURERULES 0x2FF
-#define ITEM_STRANGESOUVENIR 0x300
-#define ITEM_LENSCASE 0x301
-#define ITEM_MAKEUPBAG 0x302
-#define ITEM_TRAVELTRUNK 0x303
-#define ITEM_LUMIOSEGALETTE 0x304
-#define ITEM_SHALOURSABLE 0x305
-#define ITEM_JAWFOSSIL 0x306
-#define ITEM_SAILFOSSIL 0x307
-#define ITEM_LOOKERTICKET 0x308
-#define ITEM_HOLOCASTERF 0x309
-#define ITEM_FAIRYGEM 0x30A
-#define ITEM_MEGACHARM 0x30B
-#define ITEM_MEGAGLOVE 0x30C
-#define ITEM_POKEBLOCKKIT 0x30D
-#define ITEM_KEYTOROOM1 0x30E
-#define ITEM_KEYTOROOM2 0x30F
-#define ITEM_KEYTOROOM4 0x310
-#define ITEM_KEYTOROOM6 0x311
-#define ITEM_DEVONSCUBAGEAR 0x312
-#define ITEM_CONTESTCOSTUMEM 0x313
-#define ITEM_CONTESTCOSTUMEF 0x314
-#define ITEM_MAGMASUIT 0x315
-#define ITEM_AQUASUIT 0x316
-#define ITEM_PAIROFTICKETS 0x317
-  
-#define ITEM_MEGABRACELET 0x319
-#define ITEM_MEGAPENDANT 0x31A
-#define ITEM_MEGAGLASSES 0x31B
-#define ITEM_MEGAANCHOR 0x31C
-#define ITEM_MEGASTICKPIN 0x31D
-#define ITEM_MEGATIARA 0x31E
-#define ITEM_MEGAANKLET 0x31F
-#define ITEM_METEORITE2 0x320
-#define ITEM_SWAMPERTITE 0x321
-#define ITEM_SCEPTILITE 0x322
-#define ITEM_SABLENITE 0x323
-#define ITEM_ALTARIANITE 0x324
-#define ITEM_GALLADITE 0x325
-#define ITEM_AUDINITE 0x326
-#define ITEM_METAGROSSITE 0x327
-#define ITEM_SHARPEDONITE 0x328
-#define ITEM_SLOWBRONITE 0x329
-#define ITEM_STEELIXITE 0x32A
-#define ITEM_PIDGEOTITE 0x32B
-#define ITEM_GLALITITE 0x32C
-#define ITEM_DIANCITE 0x32D
-#define ITEM_PRISONBOTTLE 0x32E
-#define ITEM_MEGACUFF 0x32F
-#define ITEM_CAMERUPTITE 0x330
-#define ITEM_LOPUNNITE 0x331
-#define ITEM_SALAMENCITE 0x332
-#define ITEM_BEEDRILLITE 0x333
-#define ITEM_METEORITE3 0x334
-#define ITEM_METEORITE4 0x335
-#define ITEM_KEYSTONE 0x336
-#define ITEM_METEORITESHARD 0x337
-#define ITEM_EONFLUTE 0x338
-  
-#define ITEM_NORMALIUMZ 0x33A
-#define ITEM_FIRIUMZ 0x33B
-#define ITEM_WATERIUMZ 0x33C
-#define ITEM_ELECTRIUMZ 0x33D
-#define ITEM_GRASSIUMZ 0x33E
-#define ITEM_ICIUMZ 0x33F
-#define ITEM_FIGHTINIUMZ 0x340
-#define ITEM_POISONIUMZ 0x341
-#define ITEM_GROUNDIUMZ 0x342
-#define ITEM_FLYINIUMZ 0x343
-#define ITEM_PSYCHIUMZ 0x344
-#define ITEM_BUGINIUMZ 0x345
-#define ITEM_ROCKIUMZ 0x346
-#define ITEM_GHOSTIUMZ 0x347
-#define ITEM_DRAGONIUMZ 0x348
-#define ITEM_DARKINIUMZ 0x349
-#define ITEM_STEELIUMZ 0x34A
-#define ITEM_FAIRIUMZ 0x34B
-#define ITEM_PIKANIUMZ 0x34C
-#define ITEM_BOTTLECAP 0x34D
-#define ITEM_GOLDBOTTLECAP 0x34E
-#define ITEM_ZRING 0x34F
-#define ITEM_DECIDIUMZ 0x350
-#define ITEM_INCINIUMZ 0x351
-#define ITEM_PRIMARIUMZ 0x352
-#define ITEM_TAPUNIUMZ 0x353
-#define ITEM_MARSHADIUMZ 0x354
-#define ITEM_ALORAICHIUMZ 0x355
-#define ITEM_SNORLIUMZ 0x356
-#define ITEM_EEVIUMZ 0x357
-#define ITEM_MEWNIUMZ 0x358
-#define ITEM_NORMALIUMZ2 0x359
-#define ITEM_FIRIUMZ2 0x35A
-#define ITEM_WATERIUMZ2 0x35B
-#define ITEM_ELECTRIUMZ2 0x35C
-#define ITEM_GRASSIUMZ2 0x35D
-#define ITEM_ICIUMZ2 0x35E
-#define ITEM_FIGHTINIUMZ2 0x35F
-#define ITEM_POISONIUMZ2 0x360
-#define ITEM_GROUNDIUMZ2 0x361
-#define ITEM_FLYINIUMZ2 0x362
-#define ITEM_PSYCHIUMZ2 0x363
-#define ITEM_BUGINIUMZ2 0x364
-#define ITEM_ROCKIUMZ2 0x365
-#define ITEM_GHOSTIUMZ2 0x366
-#define ITEM_DRAGONIUMZ2 0x367
-#define ITEM_DARKINIUMZ2 0x368
-#define ITEM_STEELIUMZ2 0x369
-#define ITEM_FAIRIUMZ2 0x36A
-#define ITEM_PIKANIUMZ2 0x36B
-#define ITEM_DECIDIUMZ2 0x36C
-#define ITEM_INCINIUMZ2 0x36D
-#define ITEM_PRIMARIUMZ2 0x36E
-#define ITEM_TAPUNIUMZ2 0x36F
-#define ITEM_MARSHADIUMZ2 0x370
-#define ITEM_ALORAICHIUMZ2 0x371
-#define ITEM_SNORLIUMZ2 0x372
-#define ITEM_EEVIUMZ2 0x373
-#define ITEM_MEWNIUMZ2 0x374
-#define ITEM_PIKASHUNIUMZ 0x375
-#define ITEM_PIKASHUNIUMZ2 0x376
-  
-#define ITEM_FORAGEBAG 0x378
-#define ITEM_FISHINGROD 0x379
-#define ITEM_PROFESSORSMASK 0x37A
-#define ITEM_FESTIVALTICKET 0x37B
-#define ITEM_SPARKLINGSTONE 0x37C
-#define ITEM_ADRENALINEORB 0x37D
-#define ITEM_ZYGARDECUBE 0x37E
-#define ITEM_ICESTONE 0x37F
-#define ITEM_RIDEPAGER 0x380
-#define ITEM_BEASTBALL 0x381
-#define ITEM_BIGMALASADA 0x382
-#define ITEM_REDNECTAR 0x383
-#define ITEM_YELLOWNECTAR 0x384
-#define ITEM_PINKNECTAR 0x385
-#define ITEM_PURPLENECTAR 0x386
-#define ITEM_SUNFLUTE 0x387
-#define ITEM_MOONFLUTE 0x388
-#define ITEM_ENIGMATICCARD 0x389
-  
-#define ITEM_TERRAINEXTENDER 0x38B
-#define ITEM_PROTECTIVEPADS 0x38C
-#define ITEM_ELECTRICSEED 0x38D
-#define ITEM_PSYCHICSEED 0x38E
-#define ITEM_MISTYSEED 0x38F
-#define ITEM_GRASSYSEED 0x390
-  
-#define ITEM_FIGHTINGMEMORY 0x392
-#define ITEM_FLYINGMEMORY 0x393
-#define ITEM_POISONMEMORY 0x394
-#define ITEM_GROUNDMEMORY 0x395
-#define ITEM_ROCKMEMORY 0x396
-#define ITEM_BUGMEMORY 0x397
-#define ITEM_GHOSTMEMORY 0x398
-#define ITEM_STEELMEMORY 0x399
-#define ITEM_FIREMEMORY 0x39A
-#define ITEM_WATERMEMORY 0x39B
-#define ITEM_GRASSMEMORY 0x39C
-#define ITEM_ELECTRICMEMORY 0x39D
-#define ITEM_PSYCHICMEMORY 0x39E
-#define ITEM_ICEMEMORY 0x39F
-#define ITEM_DRAGONMEMORY 0x3A0
-#define ITEM_DARKMEMORY 0x3A1
-#define ITEM_FAIRYMEMORY 0x3A2
-
-#endif /* ITEM_IDS */
+#include "types.h"
+#include "defines.h"
+#include "functions.h"
+#include "locations.h"
+
+#define NULL 0
+
+const struct item_struct item_table[ALL_ITEMS] =
+{
+    //378. {Dusk Ball}
+    {
+        .name = _("Dusk Ball"),
+        .index = ITEM_DUSKBALL,
+        .price = 1000,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BALLS,
+        .type_of_item =  BALL_DUSK,
+        .field_usage_code = NULL,
+        .battle_usage = 0x2,
+        .battle_usage_code = (void *)0x080FE395,
+        .extra_param = NULL
+    },
+	
+    //379. {Heal Ball}
+    {
+        .name = _("Heal Ball"),
+        .index = ITEM_HEALBALL,
+        .price = 300,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BALLS,
+        .type_of_item =  BALL_HEAL,
+        .field_usage_code = NULL,
+        .battle_usage = 0x2,
+        .battle_usage_code = (void *)0x080FE395,
+        .extra_param = NULL
+    },
+
+    //380. {QUICK BALL}
+    {
+        .name = _("Quick Ball"),
+        .index = ITEM_QUICKBALL,
+        .price = 1000,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BALLS,
+        .type_of_item =  BALL_QUICK,
+        .field_usage_code = NULL,
+        .battle_usage = 0x2,
+        .battle_usage_code = (void *)0x080FE395,
+        .extra_param = NULL
+    },
+
+    //381. {CHERISH BALL}
+    {
+        .name = _("Cherish Ball"),
+        .index = ITEM_CHERISHBALL,
+        .price = 1000,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BALLS,
+        .type_of_item =  BALL_CHERISH,
+        .field_usage_code = NULL,
+        .battle_usage = 0x2,
+        .battle_usage_code = (void *)0x080FE395,
+        .extra_param = NULL
+    },
+
+    //382. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //383. {OLD GATEU}
+    {
+        .name = _("Old Gateau"),
+        .index = ITEM_OLDGATEAU,
+        .price = 350,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x08580263,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  0x1,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = 0x1,
+        .battle_usage_code = (void *)0x080FE591,
+        .extra_param = NULL
+    },
+
+    //384. {HONEY}
+    {
+        .name = _("Honey"),
+        .index = ITEM_HONEY,
+        .price = 100,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  NULL,
+        .field_usage_code = (void *)0x00000000,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //385. {GROWTH MULCH}
+    {
+        .name = _("Growth Mulch"),
+        .index = ITEM_GROWTHMULCH,
+        .price = 200,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  NULL,
+        .field_usage_code = (void *)0x00000000,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //386. {DAMP MULCH}
+    {
+        .name = _("Damp Mulch"),
+        .index = ITEM_DAMPMULCH,
+        .price = 200,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  NULL,
+        .field_usage_code = (void *)0x00000000,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //387. {STABLE MULCH}
+    {
+        .name = _("Stable Mulch"),
+        .index = ITEM_STABLEMULCH,
+        .price = 200,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  NULL,
+        .field_usage_code = (void *)0x00000000,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //388. {GOOEY MULCH}
+    {
+        .name = _("Gooey Mulch"),
+        .index = ITEM_GOOEYMULCH,
+        .price = 200,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  NULL,
+        .field_usage_code = (void *)0x00000000,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //389. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //390. {ARMOR FOSSIL}
+    {
+        .name = _("Armor Fossil"),
+        .index = ITEM_ARMORFOSSIL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_KEYITEMS,
+        .type_of_item =  0x4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //391. {SKULL FOSSIL}
+    {
+        .name = _("Skull Fossil"),
+        .index = ITEM_SKULLFOSSIL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_KEYITEMS,
+        .type_of_item =  0x4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //392. {RARE BONE}
+    {
+        .name = _("Rare Bone"),
+        .index = ITEM_RAREBONE,
+        .price = 5000,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //393. {SHINY STONE}
+    {
+        .name = _("Shiny Stone"),
+        .index = ITEM_SHINYSTONE,
+        .price = 2100,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  1,
+        .field_usage_code = (void *)0x080FE379,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //394. {DUSK STONE}
+    {
+        .name = _("Dusk Stone"),
+        .index = ITEM_DUSKSTONE,
+        .price = 2100,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  1,
+        .field_usage_code = (void *)0x080FE379,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //395. {DAWN STONE}
+    {
+        .name = _("Dawn Stone"),
+        .index = ITEM_DAWNSTONE,
+        .price = 2100,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  1,
+        .field_usage_code = (void *)0x080FE379,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //396. {OVAL STONE}
+    {
+        .name = _("Oval Stone"),
+        .index = ITEM_OVALSTONE,
+        .price = 2100,
+        .held_effect = 0x0,
+        .held_effect_quality = 0x0,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //397. {ODD KEYSTONE}
+    {
+        .name = _("Odd Keystone"),
+        .index = ITEM_ODDKEYSTONE,
+        .price = 2100,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {GRISEOUS ORB}
+    {
+        .name = _("Griseous Orb"),
+        .index = ITEM_GRISEOUSORB,
+        .price = 10000,
+        .held_effect = ITEM_EFFECT_GRISEOUSORB,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //399. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //400. {DOUSE DRIVE}
+    {
+        .name = _("Douse Drive"),
+        .index = ITEM_DOUSEDRIVE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_DRIVES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000B
+    },
+
+    //401. {SHOCK DRIVE}
+    {
+        .name = _("Shock Drive"),
+        .index = ITEM_SHOCKDRIVE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_DRIVES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000D
+    },
+
+    //402. {BURN DRIVE}
+    {
+        .name = _("Burn Drive"),
+        .index = ITEM_BURNDRIVE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_DRIVES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000A
+    },
+
+    //403. {CHILL DRIVE}
+    {
+        .name = _("Chill Drive"),
+        .index = ITEM_CHILLDRIVE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_DRIVES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000F
+    },
+
+    //404. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //405. {SWEET HEART}
+    {
+        .name = _("Sweet Heart"),
+        .index = ITEM_SWEETHEART,
+        .price = 100,
+        .held_effect = NULL,
+        .held_effect_quality = 20,
+        .desc_pointer = (void *)0x08580109,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  1,
+        .field_usage_code = (void *)0x080FDEA1,
+        .battle_usage = 1,
+        .battle_usage_code = (void *)0x080FE591,
+        .extra_param = NULL
+    },
+
+    //406. {ADAMANT ORB}
+    {
+        .name = _("Adamant Orb"),
+        .index = ITEM_ADAMANTORB,
+        .price = 10000,
+        .held_effect = ITEM_EFFECT_ADAMANTORB,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //407. {LUSTROUS ORB}
+    {
+        .name = _("Lustrous Orb"),
+        .index = ITEM_LUSTROUSORB,
+        .price = 10000,
+        .held_effect = ITEM_EFFECT_LUSTROUSORB,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //408. {GREET MAIL}
+    {
+        .name = _("Greet Mail"),
+        .index = ITEM_GREETMAIL,
+        .price = 50,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  NULL,
+        .field_usage_code = (void *)0x080FD279,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //409. {FAVORED MAIL}
+    {
+        .name = _("Favored Mail"),
+        .index = ITEM_FAVOREDMAIL,
+        .price = 50,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  NULL,
+        .field_usage_code = (void *)0x080FD279,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //410. {RSVP MAIL}
+    {
+        .name = _("RSVP Mail"),
+        .index = ITEM_RSVPMAIL,
+        .price = 50,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  NULL,
+        .field_usage_code = (void *)0x080FD279,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //411. {THANKS MAIL}
+    {
+        .name = _("Thanks Mail"),
+        .index = ITEM_THANKSMAIL,
+        .price = 50,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  NULL,
+        .field_usage_code = (void *)0x080FD279,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //412. {INQUIRY MAIL}
+    {
+        .name = _("Inquiry Mail"),
+        .index = ITEM_INQUIRYMAIL,
+        .price = 50,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  NULL,
+        .field_usage_code = (void *)0x080FD279,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //413. {LIKE MAIL}
+    {
+        .name = _("Like Mail"),
+        .index = ITEM_LIKEMAIL,
+        .price = 50,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  NULL,
+        .field_usage_code = (void *)0x080FD279,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //414. {REPLY MAIL}
+    {
+        .name = _("Reply Mail"),
+        .index = ITEM_REPLYMAIL,
+        .price = 50,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  NULL,
+        .field_usage_code = (void *)0x080FD279,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //415. {BRIDGEMAIL S}
+    {
+        .name = _("BridgeMail S"),
+        .index = ITEM_BRIDGEMAILS,
+        .price = 50,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  NULL,
+        .field_usage_code = (void *)0x080FD279,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //416. {BRIDGEMAIL D}
+    {
+        .name = _("BridgeMail D"),
+        .index = ITEM_BRIDGEMAILD,
+        .price = 50,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  NULL,
+        .field_usage_code = (void *)0x080FD279,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //417. {BRIDGEMAIL T}
+    {
+        .name = _("BridgeMail T"),
+        .index = ITEM_BRIDGEMAILT,
+        .price = 50,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  NULL,
+        .field_usage_code = (void *)0x080FD279,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //418. {BRIDGEMAIL V}
+    {
+        .name = _("BridgeMail V"),
+        .index = ITEM_BRIDGEMAILV,
+        .price = 50,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  NULL,
+        .field_usage_code = (void *)0x080FD279,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //419. {BRIDGEMAIL M}
+    {
+        .name = _("BridgeMail M"),
+        .index = ITEM_BRIDGEMAILM,
+        .price = 50,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  NULL,
+        .field_usage_code = (void *)0x080FD279,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //420. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //421. {OCCA BERRY}
+    {
+        .name = _("Occa Berry"),
+        .index = ITEM_OCCABERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000A
+    },
+
+    //422. {PASSHO BERRY}
+    {
+        .name = _("Passho Berry"),
+        .index = ITEM_PASSHOBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000B
+    },
+
+    //423. {WACAN BERRY}
+    {
+        .name = _("Wacan Berry"),
+        .index = ITEM_WACANBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000D
+    },
+
+    //424. {RINDO BERRY}
+    {
+        .name = _("Rindo Berry"),
+        .index = ITEM_RINDOBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000C
+    },
+
+    //425. {YACHE BERRY}
+    {
+        .name = _("Yache Berry"),
+        .index = ITEM_YACHEBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000F
+    },
+
+    //426. {CHOPLE BERRY}
+    {
+        .name = _("Chople Berry"),
+        .index = ITEM_CHOPLEBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000001
+    },
+
+    //427. {KEBIA BERRY}
+    {
+        .name = _("Kebia Berry"),
+        .index = ITEM_KEBIABERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000003
+    },
+
+    //428. {SHUCA BERRY}
+    {
+        .name = _("Shuca Berry"),
+        .index = ITEM_SHUCABERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000004
+    },
+
+    //429. {COBA BERRY}
+    {
+        .name = _("Coba Berry"),
+        .index = ITEM_COBABERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000002
+    },
+
+    //430. {PAYAPA BERRY}
+    {
+        .name = _("Payapa Berry"),
+        .index = ITEM_PAYAPABERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000E
+    },
+
+    //431. {TANGA BERRY}
+    {
+        .name = _("Tanga Berry"),
+        .index = ITEM_TANGABERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000006
+    },
+
+    //432. {CHARTI BERRY}
+    {
+        .name = _("Charti Berry"),
+        .index = ITEM_CHARTIBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000005
+    },
+
+    //433. {KASIB BERRY}
+    {
+        .name = _("Kasib Berry"),
+        .index = ITEM_KASIBBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000007
+    },
+
+    //434. {HABAN BERRY}
+    {
+        .name = _("Haban Berry"),
+        .index = ITEM_HABANBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000010
+    },
+
+    //435. {COLBUR BERRY}
+    {
+        .name = _("Colbur Berry"),
+        .index = ITEM_COLBURBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000011
+    },
+
+    //436. {BABIRI BERRY}
+    {
+        .name = _("Babiri Berry"),
+        .index = ITEM_BABIRIBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000008
+    },
+
+    //437. {CHILAN BERRY}
+    {
+        .name = _("Chilan Berry"),
+        .index = ITEM_CHILANBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_DAM_REDUX_BERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //438. {MICLE BERRY}
+    {
+        .name = _("Micle Berry"),
+        .index = ITEM_MICLEBERRY,
+        .price = 20,
+        .held_effect = 0,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //439. {CUSTAP BERRY}
+    {
+        .name = _("Custap Berry"),
+        .index = ITEM_CUSTAPBERRY,
+        .price = 20,
+        .held_effect = ITEM_EFFECT_CUSTAPBERRY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //440. {JABOCA BERRY}
+    {
+        .name = _("Jaboca Berry"),
+        .index = ITEM_JABOCABERRY,
+        .price = 20,
+        .held_effect = 0,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //441. {ROWAP BERRY}
+    {
+        .name = _("Rowap Berry"),
+        .index = ITEM_ROWAPBERRY,
+        .price = 20,
+        .held_effect = 0,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_BERRIES,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000000
+    },
+
+    //442. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //443. {WIDE LENS}
+    {
+        .name = _("Wide Lens"),
+        .index = ITEM_WIDELENS,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_WIDELENS,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //444. {MUSCLE BAND}
+    {
+        .name = _("Muscle Band"),
+        .index = ITEM_MUSCLEBAND,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_MUSCLEBAND,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //445. {Wise Glasses}
+    {
+        .name = _("Wise Glasses"),
+        .index = ITEM_WISEGLASSES,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_WISEGLASSES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //446. {EXPERT BELT}
+    {
+        .name = _("Expert Belt"),
+        .index = ITEM_EXPERTBELT,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_EXPERTBELT,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //447. {Light Clay}
+    {
+        .name = _("Light Clat"),
+        .index = ITEM_LIGHTCLAY,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_LIGHTCLAY,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //448. {LIFE ORB}
+    {
+        .name = _("Life Orb"),
+        .index = ITEM_LIFEORB,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_LIFEORB,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //449. {POWER HERB}
+    {
+        .name = _("Power Herb"),
+        .index = ITEM_POWERHERB,
+        .price = 100,
+        .held_effect = ITEM_EFFECT_POWERHERB,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //450. {TOXIC ORB}
+    {
+        .name = _("Toxic Orb"),
+        .index = ITEM_TOXICORB,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_TOXICORB,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //451. {FLAME ORB}
+    {
+        .name = _("Flame Orb"),
+        .index = ITEM_FLAMEORB,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_FLAMEORB,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //452. {QUICK POWDER}
+    {
+        .name = _("Quick Powder"),
+        .index = ITEM_QUICKPOWDER,
+        .price = 10,
+        .held_effect = ITEM_EFFECT_QUICKPOWDER,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //453. {FOCUS SASH}
+    {
+        .name = _("Focus Sash"),
+        .index = ITEM_FOCUSSASH,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_FOCUSSASH,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //454. {ZOOM LENS}
+    {
+        .name = _("Zoom Lens"),
+        .index = ITEM_ZOOMLENS,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_ZOOMLENS,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //455. {METRONOME}
+    {
+        .name = _("Metronome"),
+        .index = ITEM_METRONOME,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_METRONOME,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //456. {IRON BALL}
+    {
+        .name = _("Iron Ball"),
+        .index = ITEM_IRONBALL,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_IRONBALL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //457. {LAGGINGTAIL}
+    {
+        .name = _("LaggingTail"),
+        .index = ITEM_LAGGINGTAIL,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_LAGGINGTAIL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //458. {DESTINY KNOT}
+    {
+        .name = _("Destiny Knot"),
+        .index = ITEM_DESTINYKNOT,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_DESTINYKNOT,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //459. {BLACK SLUDGE}
+    {
+        .name = _("Black Sludge"),
+        .index = ITEM_BLACKSLUDGE,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_BLACKSLUDGE,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //460. {ICY ROCK}
+    {
+        .name = _("Icy Rock"),
+        .index = ITEM_ICYROCK,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_ICYROCK,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //461. {SMOOTH ROCK}
+    {
+        .name = _("Smooth Rock"),
+        .index = ITEM_SMOOTHROCK,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_SMOOTHROCK,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //462. {HEAT ROCK}
+    {
+        .name = _("Heat Rock"),
+        .index = ITEM_HEATROCK,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_HEATROCK,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //463. {DAMP ROCK}
+    {
+        .name = _("Damp Rock"),
+        .index = ITEM_DAMPROCK,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_DAMPROCK,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //464. {GRIP CLAW}
+    {
+        .name = _("Grip Claw"),
+        .index = ITEM_GRIPCLAW,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_GRIPCLAW,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //465. {CHOICE SCARF}
+    {
+        .name = _("Choice Scarf"),
+        .index = ITEM_CHOICESCARF,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_CHOICESCARF,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //466. {STICKY BARB}
+    {
+        .name = _("Sticky Barb"),
+        .index = ITEM_STICKYBARB,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_STICKYBARB,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //467. {POWER BRACER}
+    {
+        .name = _("Power Bracer"),
+        .index = ITEM_POWERBRACER,
+        .price = 3000,
+        .held_effect = ITEM_EFFECT_MACHOBRACE,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000002
+    },
+
+    //468. {POWER BELT}
+    {
+        .name = _("Power Belt"),
+        .index = ITEM_POWERBELT,
+        .price = 3000,
+        .held_effect = ITEM_EFFECT_MACHOBRACE,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000003
+    },
+
+    //469. {POWER LENS}
+    {
+        .name = _("Power Lens"),
+        .index = ITEM_POWERLENS,
+        .price = 3000,
+        .held_effect = ITEM_EFFECT_MACHOBRACE,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000005
+    },
+
+    //470. {POWER BAND}
+    {
+        .name = _("Power Band"),
+        .index = ITEM_POWERBAND,
+        .price = 3000,
+        .held_effect = ITEM_EFFECT_MACHOBRACE,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000006
+    },
+
+    //471. {POWER ANKLET}
+    {
+        .name = _("Power Anklet"),
+        .index = ITEM_POWERANKLET,
+        .price = 3000,
+        .held_effect = ITEM_EFFECT_MACHOBRACE,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000004
+    },
+
+    //472. {POWER WEIGHT}
+    {
+        .name = _("Power Weight"),
+        .index = ITEM_POWERWEIGHT,
+        .price = 3000,
+        .held_effect = ITEM_EFFECT_MACHOBRACE,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000001
+    },
+
+    //473. {SHED SHELL}
+    {
+        .name = _("Shed Shell"),
+        .index = ITEM_SHEDSHELL,
+        .price = 100,
+        .held_effect = ITEM_EFFECT_SHEDSHELL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //474. {BIG ROOT}
+    {
+        .name = _("Big Root"),
+        .index = ITEM_BIGROOT,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_BIGROOT,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //475. {CHOICE SPECS}
+    {
+        .name = _("Choice Specs"),
+        .index = ITEM_CHOICESPECS,
+        .price = 200,
+        .held_effect = ITEM_EFFECT_CHOICESPECS,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = POCKET_ITEMS,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    {
+        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
+        .index = NULL,
+        .price = NULL,
+        .held_effect = NULL,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x0857FEA0,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = NULL
+    },
+
+};
