@@ -1673,7 +1673,7 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    //476. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
     {
         .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
         .index = NULL,
@@ -1690,21 +1690,276 @@ const struct item_struct item_table[ALL_ITEMS] =
         .extra_param = NULL
     },
 
-    //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
+    //477. {FLAME PLATE}
     {
-        .name = {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00},
-        .index = NULL,
-        .price = NULL,
-        .held_effect = NULL,
+        .name = _("Flame Plate"),
+        .index = ITEM_FLAMEPLATE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_PLATES,
         .held_effect_quality = NULL,
-        .desc_pointer = (void *)0x0857FEA0,
+        .desc_pointer = (void *)0x00000000,
         .mystery_value = NULL,
         .pocket_no = 1,
         .type_of_item =  4,
         .field_usage_code = (void *)0x080FE821,
         .battle_usage = NULL,
         .battle_usage_code = NULL,
-        .extra_param = NULL
+        .extra_param = 0x0000000A
+    },
+
+    //478. {SPLASH PLATE}
+    {
+        .name = _("Splash Plate"),
+        .index = ITEM_SPLASHPLATE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_PLATES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000B
+    },
+
+    //479. {ZAP PLATE}
+    {
+        .name = _("Zap Plate"),
+        .index = ITEM_ZAPPLATE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_PLATES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000D
+    },
+
+    //480. {MEADOW PLATE}
+    {
+        .name = _("Meadow Plate"),
+        .index = ITEM_MEADOWPLATE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_PLATES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000C
+    },
+
+    //481. {ICICLE PLATE}
+    {
+        .name = _("Icicle Plate"),
+        .index = ITEM_ICICLEPLATE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_PLATES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000F
+    },
+
+    //482. {FIST PLATE}
+    {
+        .name = _("Fist Plate"),
+        .index = ITEM_FISTPLATE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_PLATES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000001
+    },
+
+    //483. {TOXIC PLATE}
+    {
+        .name = _("Toxic Plate"),
+        .index = ITEM_TOXICPLATE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_PLATES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000003
+    },
+
+    //484. {EARTH PLATE}
+    {
+        .name = _("Earth Plate"),
+        .index = ITEM_EARTHPLATE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_PLATES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000004
+    },
+
+    //485. {SKY PLATE}
+    {
+        .name = _("Sky Plate"),
+        .index = ITEM_SKYPLATE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_PLATES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000002
+    },
+
+    //486. {MIND PLATE}
+    {
+        .name = _("Mind Plate"),
+        .index = ITEM_MINDPLATE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_PLATES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x0000000E
+    },
+
+    //487. {INSECT PLATE}
+    {
+        .name = _("Insect Plate"),
+        .index = ITEM_INSECTPLATE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_PLATES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000006
+    },
+
+    //488. {STONE PLATE}
+    {
+        .name = _("Stone Plate"),
+        .index = ITEM_STONEPLATE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_PLATES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000005
+    },
+
+    //489. {SPOOKY PLATE}
+    {
+        .name = _("Spooky Plate"),
+        .index = ITEM_SPOOKYPLATE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_PLATES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000007
+    },
+
+    //490. {DRACO PLATE}
+    {
+        .name = _("Draco Plate"),
+        .index = ITEM_DRACOPLATE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_PLATES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000010
+    },
+
+    //491. {DREAD PLATE}
+    {
+        .name = _("Dread Plate"),
+        .index = ITEM_DREADPLATE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_PLATES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000011
+    },
+
+    //492. {IRON PLATE}
+    {
+        .name = _("Iron Plate"),
+        .index = ITEM_IRONPLATE,
+        .price = 1000,
+        .held_effect = ITEM_EFFECT_PLATES,
+        .held_effect_quality = NULL,
+        .desc_pointer = (void *)0x00000000,
+        .mystery_value = NULL,
+        .pocket_no = 1,
+        .type_of_item =  4,
+        .field_usage_code = (void *)0x080FE821,
+        .battle_usage = NULL,
+        .battle_usage_code = NULL,
+        .extra_param = 0x00000008
     },
 
     //398. {0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xAC,0xFF,0x00,0x00,0x00,0x00,0x00}
